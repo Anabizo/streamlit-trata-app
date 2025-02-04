@@ -52,7 +52,7 @@ for ficha in fichas:
                     <span style="padding: 5px 10px; background-color: #FFEB3B; border-radius: 5px;">FC: {ficha['fc_bpm']} BPM</span>
                     <span style="padding: 5px 10px; background-color: #FF0000; border-radius: 5px;">P.A: {ficha['pa_mm_hg']}</span>
                 </div>
-                <div style="background-color: #4CAF50; color: white; padding: 5px; border-radius: 5px; text-align: center;">
+                <div style="background-color: #4CAF50; color: white; margin: 10px; padding: 5px; border-radius: 5px; text-align: center;">
                     {', '.join(ficha['caracteristicas'])}
                 </div>
             </div>
