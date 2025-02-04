@@ -52,7 +52,6 @@ for ficha in fichas:
                     <span style="padding: 5px 10px; background-color: #FFEB3B; border-radius: 5px;">FC: {ficha['fc_bpm']} BPM</span>
                     <span style="padding: 5px 10px; background-color: #FF0000; border-radius: 5px;">P.A: {ficha['pa_mm_hg']}</span>
                 </div>
-                <p style="text-align: center; font-size: 20px; font-weight: bold; color: #4A148C;">Horário: {ficha['horario']}</p>
                 <div style="background-color: #4CAF50; color: white; padding: 5px; border-radius: 5px; text-align: center;">
                     {', '.join(ficha['caracteristicas'])}
                 </div>
