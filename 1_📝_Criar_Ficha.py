@@ -52,7 +52,7 @@ comentarios = st.text_area("Descrição")
 
 
 
-if st.button("Enviar Ficha"):
+if st.button("Enviar Ficha", disabled=True):
     exercicios_ids = [exercicio["id"] for exercicio in exercicios_disponiveis if exercicio["nome"] in exercicios_selecionados]
     
     dados = {
