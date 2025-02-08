@@ -1,12 +1,8 @@
 import streamlit as st
 import requests
-from dotenv import load_dotenv
-import os
 
-load_dotenv()
-
-EXERCICIOS_URL = os.getenv('EXERCICIOS_URL')
-API_URL = os.getenv('API_URL')
+EXERCICIOS_URL = st.secrets['EXERCICIOS_URL']
+API_URL = st.secrets['API_URL']
 
 st.set_page_config(page_title='Apollo REAB', page_icon='🧑‍⚕️', layout='centered')
 
